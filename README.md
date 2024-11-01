@@ -1,35 +1,35 @@
 # Stock-Tracking-System
 
-Overview
+## Overview
 
 The Stock Tracking System is a web-based application designed to help businesses manage their inventory effectively. It allows users to add, update, delete, and view stock items with ease. The application provides an intuitive interface for managing inventory levels, ensuring that businesses can make informed decisions based on real-time data.
 
 ![image](https://github.com/user-attachments/assets/14b66901-b075-41fd-aa7b-974b9f43c675)
 
 
-Features
+## Features
 
 User Management: Admins can add, edit, and remove users, ensuring that only authorized personnel can access sensitive information.
 Inventory Management: Warehouse managers can add new products, update existing stock levels, and remove outdated items.
 Reporting: The system generates comprehensive reports to provide insights into stock levels and user activities.
 
 
-Technologies Used
+## Technologies Used
 
 - Programming Language: C#
 - Framework: ASP.NET MVC
 - Database: SQL Server
 - Front-end Technologies: HTML, CSS, JavaScript
 
-System Design
+## System Design
 
 This diagram illustrates the architecture and data flow within the Stock Tracking System, highlighting the interaction between various components.
 
 ![image](https://github.com/user-attachments/assets/a631b069-eed9-4802-a5ac-0dee7692faa8)
 
-User Roles
+## User Roles
 
-- Admin
+- ### Admin
 
   The Admin role has full control over the Stock Tracking System. Admins are responsible for user management, system configuration, and overseeing the overall operation of the application.
 
@@ -41,7 +41,7 @@ User Roles
 ![image](https://github.com/user-attachments/assets/d5f6b3bd-a530-4875-91e6-2de33cb9785e)
 
 
-- Warehouse Manager
+- ### Warehouse Manager
 
   The Warehouse Manager plays a crucial role in managing inventory levels and ensuring the accuracy of stock records. They have access to functionalities that allow them to maintain and optimize inventory.
 
@@ -53,7 +53,7 @@ User Roles
 ![image](https://github.com/user-attachments/assets/777e7da8-8114-4132-b291-0c2a8bc5d2b1)
 
 
-- Report User
+- ### Report User
 
   Report Users are typically analysts or stakeholders who need access to stock data for analysis and decision-making. They can generate various reports based on the data in the system.
 
